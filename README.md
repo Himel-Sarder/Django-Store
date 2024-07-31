@@ -9,8 +9,12 @@ Here’s a comprehensive list of necessary commands for various stages of Django
 
 2. **Create a new Django project:**
    ```bash
-   django-admin startproject projectname
+   django-admin startproject projectname 
    cd projectname
+   ```
+   OR,
+   ```bash
+   django-admin startproject projectname .
    ```
 
 ### Creating and Managing Django Apps
