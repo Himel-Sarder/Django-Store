@@ -22,7 +22,7 @@ python manage.py startapp ImageSendingApp
 
 ### 3. Configuring Settings
 
-In `ImageSendingApp/settings.py`, add your app to the `INSTALLED_APPS` list and configure media settings:
+In `ImageProject/settings.py`, add your app to the `INSTALLED_APPS` list and configure media settings:
 
 ```python
 INSTALLED_APPS = [
