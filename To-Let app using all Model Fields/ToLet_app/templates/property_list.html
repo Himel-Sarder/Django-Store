@@ -1,0 +1,32 @@
+<!--Bootstrap template-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property List</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Property List</h2>
+        <a href="{% url 'property_create' %}" class="btn btn-primary mb-3">Add New Property</a>
+        <ul class="list-group">
+            {% for property in properties %}
+                <li class="list-group-item">
+                    <h3>{{ property.title }}</h3>
+                    <p>{{ property.description }}</p>
+                    <p>{{ property.email }}</p>
+                    <p>{{ property.price }}</p>
+                    <p>{{ property.size }}</p>
+                    <p>{{ property.property_type }}</p>
+                    <p>{{ property.amenities }}</p>
+                    <img src="{{ property.image.url }}" alt="Property Image" style="max-width: 200px;">
+                    <p>{{ property.is_available }}</p>
+                    <p>{{ property.created_at }}</p>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
