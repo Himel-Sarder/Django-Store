@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Item List</title>
+    </head>
+<body>
+    <h1>Item List</h1>
+    <a href="{% url "create_view" %}">Create New Item</a>
+    <ul>
+        {% for item in items %}
+        <li>{{ item.name }} - {{ item.options }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
