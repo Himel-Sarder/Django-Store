@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ author.name }}'s Books</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <div class="max-w-2xl mx-auto py-10 px-4">
+        <h1 class="text-3xl font-bold mb-4">Books by {{ author.name }}</h1>
+        <ul class="list-disc pl-5">
+            {% for book in books %}
+            <li class="mb-2">
+                <span class="text-lg">{{ book.title }}</span>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
