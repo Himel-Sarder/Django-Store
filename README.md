@@ -160,4 +160,4 @@ Here’s a comprehensive list of necessary commands for various stages of Django
 
 These commands cover most of the day-to-day operations you’ll need when working with a Django project.
 
-# Thank You 😻
+# Thank You 😻🩷
