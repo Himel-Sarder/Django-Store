@@ -98,3 +98,16 @@ The `DetailView` class simplifies the process of displaying details for a single
 
 - **Django Documentation**: [DetailView](https://docs.djangoproject.com/en/stable/topics/class-based-views/detail/)
 - **Django’s Generic Class-Based Views**: [Overview](https://docs.djangoproject.com/en/stable/topics/class-based-views/generic-display/)
+
+
+## ScreenShots
+![image](https://github.com/user-attachments/assets/b21d769f-96c1-441e-bb31-1ae183b14337)
+![image](https://github.com/user-attachments/assets/f887172e-956b-4ea2-ab9e-18d6b1f16d2b)
+![image](https://github.com/user-attachments/assets/8d42c62a-d6a4-4822-bf1c-b1edc6116181)
+![image](https://github.com/user-attachments/assets/f5f4a30b-0a16-4329-aad0-8ec9dec613f0)
+
+# Thank You 😻
+
+
+
+
