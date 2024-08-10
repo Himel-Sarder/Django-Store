@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Confirm</title>
+</head>
+<body>
+    <h1>Delete {{ object.name }}?</h1>
+    <h3>Are you sure you want to delete "{{ object.name}}"? This Action cannot be undone.</h3>
+    <form method='post'>
+        {% csrf_token %}
+        <button type='submit'>Yes, delete</button>
+        <a href="{% url "lister" %}">Cancel</a>
+    </form>
+</body>
+</html>

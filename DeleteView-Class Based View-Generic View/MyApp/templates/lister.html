@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Person List</title>
+</head>
+<body>
+    <h1>Person List</h1>
+    <ul>
+        {% for person in people %}
+        <li>
+            {{ person.name }} ({{ person.age}}) - 
+            <a href='{% url "delete" person.pk %}'>Delete</a>
+        </li>
+        {% endfor %}
+    </body>
+</html>
