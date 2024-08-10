@@ -157,3 +157,13 @@ Navigate to `http://127.0.0.1:8000/persons/` to see the list of people. You can 
 - **Functionality**: The `DeleteView` displays a confirmation page, deletes the object on confirmation, and redirects to a success URL.
 
 This guide covers the basic use of `DeleteView` in Django, providing a simple and effective way to handle object deletion in your application.
+
+# ScreenShots
+![image](https://github.com/user-attachments/assets/d79803c2-2c6a-4375-bc89-c45bd68f1946)
+![image](https://github.com/user-attachments/assets/11c05a6a-a597-4ade-ad20-7b694af928c8)
+![image](https://github.com/user-attachments/assets/318d3697-3a2f-4499-b7ec-65497967fd27)
+![image](https://github.com/user-attachments/assets/27123bb9-4721-4a4b-a142-9985eaa580e1)
+
+
+
+
